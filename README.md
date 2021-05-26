@@ -1,2 +1,3 @@
 # make_examples
-examples for make
+
+Examples for my presentation "Simplifying your test runs with make" for Nordic Testing Days 2021.
