@@ -1,6 +1,5 @@
 clean:
 	@echo "Clean up old files"
-.PHONY: clean
 
 build: clean
 	@echo "Build application"
@@ -10,3 +9,5 @@ deploy: build
 
 test: deploy
 	@echo "Test stage deployment"
+
+.PHONY: clean build deploy test
